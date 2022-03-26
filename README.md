@@ -11,7 +11,7 @@ A instant tool for managing entities health.
 ``var hp_cal``に数値を入れる。<br /> Put Arbitrary number into ``var hp_cal``<br />
 操作したいエンティティを主体として``function hp:``を実行する。<br /> Execute function ``hp:`` as entity which you want to modify.<br />
 これだけで、現在の体力からスコアの体力を足し引きします。<br />That's all! The entity will change its health.<br />
-※ただし、上限を突破することはできません。<br />Warning:You can't set over MaxHealth.br />
+※ただし、上限を突破することはできません。<br />Warning:You can't set over MaxHealth.<br />
 
 # 使用例 / Example
 全クリーパーの体力を+10する Add 10 every creaper's health.
@@ -26,9 +26,11 @@ A instant tool for managing entities health.
 ```
 # 目的 / Goal
 このモジュールは、あるだけで便利な赤石愛氏のScoreToHealthをもっと使いやすく、という自分用に作りました。そのため、本来持っている機能を幾つか失っている点もあります。例えば、一番必要な整数部分だけいじるようにしているので小数点以下を操作する必要がある場合には使うことが出来ません。<br />
-This module make ScoreToHealth more easier for me. Unfortunately,there is some points which lost its founction. For example,It can't modify after the decimal point. <br />
+I make this module to use [ScoreToHealth](https://github.com/Ai-Akaishi/ScoreToHealth) more easier. Unfortunately, There are some functions which originally has. For example, It can't modify after the decimal point. <br />
 その代わり、プレイヤー以外のエンティティにも対応しました。これはScoreToHealthのモジュールに依存していませんが防具を無視したダメージを与えることが出来ます。このモジュールひとつで体力をもつエンティティすべてに足し引きをすることができます。
 <br />
-Instead, this module also deal with all entity except plalyer. And it doesn't rely on recuired module. It can damage entities ignoring armor. 
+Instead, this module can deal with an entity not only a player. In this case it doesn't rely on ScoreToHealth. It can modify an entity's health ignoring armor. 
+<br />
+
 # 連絡先 / Contact
 [Twitter](https://twitter.com/Lit_to_)
