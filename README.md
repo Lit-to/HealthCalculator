@@ -26,7 +26,7 @@ A instant tool for managing entities health.
 ```
 # 目的 / Goal
 このモジュールは、あるだけで便利な赤石愛氏のScoreToHealthをもっと使いやすく、という自分用に作りました。そのため、本来持っている機能を幾つか失っている点もあります。例えば、一番必要な整数部分だけいじるようにしているので小数点以下を操作する必要がある場合には使うことが出来ません。<br />
-I make this module to use [ScoreToHealth](https://github.com/Ai-Akaishi/ScoreToHealth) more easier. Unfortunately, There are some functions which originally has. For example, It can't modify after the decimal point. <br />
+I make this module to use [ScoreToHealth](https://github.com/Ai-Akaishi/ScoreToHealth) more easier. Unfortunately, There are some functions which this module lost but originally has. For example, It can't modify after the decimal point. <br />
 その代わり、プレイヤー以外のエンティティにも対応しました。これはScoreToHealthのモジュールに依存していませんが防具を無視したダメージを与えることが出来ます。このモジュールひとつで体力をもつエンティティすべてに足し引きをすることができます。
 <br />
 Instead, this module can deal with an entity not only a player. In this case it doesn't rely on ScoreToHealth. It can modify an entity's health ignoring armor. 
